@@ -1,0 +1,36 @@
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.todo-item input[type='checkbox'] {
+    margin-right: 10px;
+}
+
+.todo-item button {
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
